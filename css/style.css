@@ -36,7 +36,7 @@
     }
 
     .top-banner{
-        background-image: url("/images/header-bg.png");
+        background-image: url("../images/header-bg.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -80,7 +80,7 @@
        }
 
        .biography{
-         background-image: url("/images/biography-bg.png");
+         background-image: url("../images/biography-bg.png");
          background-repeat: no-repeat;
          background-size:cover;
          background-position:center;
@@ -96,7 +96,7 @@
     }
 
     #latest-work{
-        background-image: url("/images/latest-work-bg.png");
+        background-image: url("../images/latest-work-bg.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position:right;
@@ -116,7 +116,7 @@
       /*end work part*/
 
      .clint-part{
-         background-image: url("/images/footer-bg.png");
+         background-image: url("../images/footer-bg.png");
          background-repeat: no-repeat;
          background-position: left;
          background-size: cover;
@@ -159,14 +159,16 @@
        margin-left: 25%;
        border-radius: 10px;
        box-sizing: border-box;
-       margin-top: -5%;
+       margin-top: 2%;
+       position: relative;
      }
 
      .clint-down-part h4{
-        text-align: center;
-        color: white;
+        text-align:center;
+        color:white;
         font-size: 12px;
-        margin-top:15%;
+        padding-top: 30px;  
+        
      }
        
      
@@ -174,7 +176,7 @@
      .clint-down-part h2{
          text-align: center;
          color: white;
-         margin-top:10%;
+         margin-top:5%;
          font-size: 18px;
      }
 
